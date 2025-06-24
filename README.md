@@ -10,7 +10,7 @@ There are some example tiles in the models/ directory.
 The SCAD files are:
 
 * `domino-tiles.scad` - the main file to print tiles
-* `tile-utils.scad` - some maths and shapes that are common to multiple models
+* `tile-utils.scad` - some constants, maths and shapes that are common to multiple models
 * `edge-spacer.scad` - dovetails into the top/bottom edge of the tiles, but give a bit more working room
 * `spacer-dog.scad` - vertical spacer, designed to fit a MFT table - used to pring the tiles up to a level with your workpiece. Parametric.
 * `tile-bits-4x10.scad` - raw data for the domino bitstrings, for 256x256mm build plates
