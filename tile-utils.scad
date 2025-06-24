@@ -80,4 +80,4 @@ module dovetail() {
 
 /* Old versions of OpenSCAD don't have bitwise &, so this is a hacky alternative */
 function bitstring(x, bits) =
-    bits == 1 ? x % 2 == 1 ? true : false : (concat(x % 2 == 1 ? true : false, bitstring(floor(x/2), bits-1)));
+    bits == 1 ? x % 2 == 1 : (concat(x % 2 == 1, bitstring(floor(x/2), bits-1)));
