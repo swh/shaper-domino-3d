@@ -4,7 +4,7 @@ epsilon = 0.01;
 LAYER = 0.2;    // mm
 THICKNESS = 4;  // mm
 
-PAINT_Z = LAYER*2;
+PAINT_Z = LAYER*3;
 
 DOMINO_X = 1.7 * inch;
 DOMINO_Y = 0.5 * inch;

@@ -1,4 +1,4 @@
-TILE_NUM = 1;
+TILE_NUM = 2;
 
 /* [Hidden] */
 
@@ -24,14 +24,6 @@ translate(center) rotate(dominos_up)
             color(TILE_COLOR) translate([0, 0, 0]) cube(TILE);
             
             negative_dovetails(TILE.x, TILE.y);
-            
-            /*
-            // Ribs for strength
-            color(TILE_NEG_COLOR) translate([inch/2, TILE.y/2-inch/4, THICKNESS*0.75+epsilon])
-                cube([TILE.x - inch, inch/2, THICKNESS/4]);
-            color(TILE_NEG_COLOR) translate([TILE.x/2-inch/4, inch/2, THICKNESS*0.75+epsilon])
-                cube([inch/2, TILE.y-inch, THICKNESS/4]);
-            */
             
             // Marker so we know which tile this is
             color(TILE_NEG_COLOR) translate([20, TILE.y-30, THICKNESS-LAYER*5+epsilon])
