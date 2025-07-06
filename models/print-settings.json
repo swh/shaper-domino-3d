@@ -1,0 +1,20 @@
+{
+    "enable_prime_tower": "0",
+    "enable_support": "1",
+    "flush_into_infill": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @BBL X1C",
+    "ironing_type": "topmost",
+    "name": "0.20mm domino tiles",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.20mm domino tiles",
+    "skeleton_infill_density": "25%",
+    "skin_infill_density": "25%",
+    "sparse_infill_density": "25%",
+    "version": "2.1.0.18"
+}
