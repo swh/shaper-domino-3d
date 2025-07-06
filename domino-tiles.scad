@@ -1,4 +1,4 @@
-TILE_NUM = 2;
+TILE_NUM = 4;
 
 /* [Hidden] */
 
