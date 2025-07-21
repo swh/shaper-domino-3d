@@ -1,7 +1,7 @@
 include <BOSL2/std.scad>
 
 // Size of shim obove table surface, in mm
-space = 2.3; // [1:0.1:40]
+space = 4.0; // [1:0.1:40]
 // Length of dog below surface, excluding 1mm chamfer
 dog_height = 18; // [12:1:25]
 
